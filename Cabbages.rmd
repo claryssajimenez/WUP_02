@@ -70,3 +70,5 @@ Since the p-value is 0.00000003405, which is less than 0.05, we reject the $H_0$
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In conclusion, the p-value was less than 0.05 rejecting the $H_0$, therefore there is a difference in average VitC between c39 and c52 cultivation methods. 
