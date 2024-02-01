@@ -43,11 +43,12 @@ VitC is numerical and cultivation method is categorical, so we use numerical~cat
 plot(VitC~Cult,data=veggy)
 ```
 
-This box plot shows that the average level of VitC is 50 in c39 cultivation methods and 64 in c52 cultivation methods. The highest VitC level was 83(in c52) and 68( in c39). The lowest Vitc level was 41(in c39) and 47(in c52). 
+This box plot shows that the average level of VitC using the c52 cultivation method is higher than the ones using the c39 cultivation method.
 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
 
 ## Inferential Results
 
