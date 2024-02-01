@@ -49,6 +49,11 @@ This box plot shows that the average level of VitC using the c52 cultivation met
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+This table shows the mean number of VitC level in c39 was 51.5 and 54.4 in c52 cultivation. 
 
 ## Inferential Results
 
