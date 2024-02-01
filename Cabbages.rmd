@@ -26,7 +26,7 @@ veggy <- cabbages
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
 We want to predict VitC based on cultivation method.
-VitC is numerical and cultivation method is categorical, so we use numerical-categorical helper file. 
+VitC is numerical and cultivation method is categorical, so we use numerical~categorical helper file. 
 
 
 # Results
@@ -38,6 +38,12 @@ VitC is numerical and cultivation method is categorical, so we use numerical-cat
 ### Graphical Descriptive Results
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+plot(VitC~Cult,data=veggy)
+```
+
+This box plot shows that the average level of VitC is 50 in c39 cultivation methods and 64 in c52 cultivation methods. The highest VitC level was 83(in c52) and 68( in c39). The lowest Vitc level was 41(in c39) and 47(in c52). 
 
 ### Numerical Descriptive Results
 
